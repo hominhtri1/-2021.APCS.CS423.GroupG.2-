@@ -1,0 +1,2031 @@
+{
+  "id": "622445a8-0a79-433d-a8be-459d6c36853f",
+  "version": "2.0",
+  "name": "Quản lý thông tin tài khoản",
+  "url": "http://mymarket-2.apphb.com",
+  "tests": [{
+    "id": "6ba6705b-a190-42e4-b726-f90bb575d80b",
+    "name": "1. Create 1st account to work with",
+    "commands": [{
+      "id": "bbe723e4-9b3b-4812-bf53-c095477988dd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "661014bc-88df-464c-ad1c-5f3afdbb9427",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d92b492-1eb6-4fd6-8fad-d4f4b3d76e5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink1",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink1", "id"],
+        ["linkText=Create Account", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink1", "css:finder"],
+        ["xpath=//a[contains(text(),'Create Account')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink1']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Register.aspx')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bc5f7ea-942e-49c9-bc54-dcd31085ae05",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$FullName", "name"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43905304-a338-472e-bd51-870557659c9d",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$FullName", "name"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "first"
+    }, {
+      "id": "f1847a84-bd49-4923-abfd-57982011edf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=td td",
+      "targets": [
+        ["css=td td", "css:finder"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b307a560-f500-4734-8833-351a7d437554",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4074abe-3423-4dcf-b803-54029d8b62dd",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": "first@mail"
+    }, {
+      "id": "9b1db1ec-47b7-4c26-a663-2909f19158fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=td td",
+      "targets": [
+        ["css=td td", "css:finder"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d285ccc3-15f7-4264-afc0-447fdebc2cbf",
+      "comment": "",
+      "command": "click",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[3]", "xpath:idRelative"],
+        ["xpath=//td/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60c2e59b-f03d-4bb7-b847-7e4f90f557de",
+      "comment": "",
+      "command": "type",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[3]", "xpath:idRelative"],
+        ["xpath=//td/input[3]", "xpath:position"]
+      ],
+      "value": "first"
+    }, {
+      "id": "1fd8e35b-1658-4a2a-9ee2-b11a7994c8d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form-grids",
+      "targets": [
+        ["css=.login-form-grids", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecdca131-66ad-48c7-83dc-0c4ddfc4ff1a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[4]", "xpath:idRelative"],
+        ["xpath=//td/input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "615ee191-d019-4128-85f7-0fdca66c0470",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[4]", "xpath:idRelative"],
+        ["xpath=//td/input[4]", "xpath:position"]
+      ],
+      "value": "abc@123"
+    }, {
+      "id": "d09a2d62-05b6-4bf3-aa65-9926b0e05716",
+      "comment": "",
+      "command": "click",
+      "target": "css=td td",
+      "targets": [
+        ["css=td td", "css:finder"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa94ec7b-2910-4e6e-b7e9-b11948f1c1f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=ConfirmPassword",
+      "targets": [
+        ["id=ConfirmPassword", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$ConfirmPassword", "name"],
+        ["css=#ConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='ConfirmPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "514a0dbd-d12a-4aaf-bf85-2aa388d9731e",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConfirmPassword",
+      "targets": [
+        ["id=ConfirmPassword", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$ConfirmPassword", "name"],
+        ["css=#ConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='ConfirmPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "abc@123"
+    }, {
+      "id": "e4490721-23fa-4b17-a4e6-4f16d9a4f7d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form-grids",
+      "targets": [
+        ["css=.login-form-grids", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75f0392d-1432-451f-bd46-4f0446afc2d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=Answer",
+      "targets": [
+        ["id=Answer", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Answer", "name"],
+        ["css=#Answer", "css:finder"],
+        ["xpath=//input[@id='Answer']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ec51255-ed56-4d98-8d59-849646d75303",
+      "comment": "",
+      "command": "type",
+      "target": "id=Answer",
+      "targets": [
+        ["id=Answer", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Answer", "name"],
+        ["css=#Answer", "css:finder"],
+        ["xpath=//input[@id='Answer']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "red"
+    }, {
+      "id": "cabb2132-5960-4b74-b0ed-bdd9b9cb9148",
+      "comment": "",
+      "command": "click",
+      "target": "css=td td",
+      "targets": [
+        ["css=td td", "css:finder"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d19446ca-3f29-4708-8066-e4c2b97a19bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=i:nth-child(2)",
+      "targets": [
+        ["css=i:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/div/div/label/i", "xpath:idRelative"],
+        ["xpath=//label/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68b31eba-8f2d-4761-a8f1-945f50e2cc59",
+      "comment": "",
+      "command": "click",
+      "target": "id=StepNextButton",
+      "targets": [
+        ["id=StepNextButton", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$StepNextButton", "name"],
+        ["css=#StepNextButton", "css:finder"],
+        ["xpath=//input[@id='StepNextButton']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79350b8a-4856-4306-b6c9-8f2afce34aa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.register",
+      "targets": [
+        ["css=.register", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a8f8818a-9030-41be-a420-2728be7fb1e1",
+    "name": "2. Simple forget-password scenario",
+    "commands": [{
+      "id": "9429c166-020d-44af-8c39-a1f5c68b7f40",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c316e301-5a78-4257-9550-9f608ec220cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bcc8b1d-164e-44d5-ae4a-1c1521aede18",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink2",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink2", "id"],
+        ["linkText=Login", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink2", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink2']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Login.aspx')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "478d785a-3da4-4001-b213-e5236fd9436f",
+      "comment": "",
+      "command": "click",
+      "target": "id=HyperLink1",
+      "targets": [
+        ["id=HyperLink1", "id"],
+        ["linkText=Forgot Password?", "linkText"],
+        ["css=#HyperLink1", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgot Password?')]", "xpath:link"],
+        ["xpath=//a[@id='HyperLink1']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'PasswordRecovery.aspx')]", "xpath:href"],
+        ["xpath=//td/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgot Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d0851e4-1524-4ea2-a9fb-b9c38c192030",
+      "comment": "",
+      "command": "click",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$PasswordRecoveryMember$UserNameContainerID$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='PasswordRecoveryMember']/tbody/tr/td/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8be38d30-2487-410b-95cd-22d512a60778",
+      "comment": "",
+      "command": "type",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$PasswordRecoveryMember$UserNameContainerID$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='PasswordRecoveryMember']/tbody/tr/td/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "first"
+    }, {
+      "id": "1375954e-a538-421b-926a-89e4362de7a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=SubmitButton",
+      "targets": [
+        ["id=SubmitButton", "id"],
+        ["name=ctl00$MainContent$PasswordRecoveryMember$UserNameContainerID$SubmitButton", "name"],
+        ["css=#SubmitButton", "css:finder"],
+        ["xpath=//input[@id='SubmitButton']", "xpath:attributes"],
+        ["xpath=//table[@id='PasswordRecoveryMember']/tbody/tr/td/table/tbody/tr[4]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a7cafd6-53c3-4f7b-ae9f-be77b359ef19",
+      "comment": "",
+      "command": "click",
+      "target": "id=Answer",
+      "targets": [
+        ["id=Answer", "id"],
+        ["name=ctl00$MainContent$PasswordRecoveryMember$QuestionContainerID$Answer", "name"],
+        ["css=#Answer", "css:finder"],
+        ["xpath=//input[@id='Answer']", "xpath:attributes"],
+        ["xpath=//table[@id='PasswordRecoveryMember']/tbody/tr/td/table/tbody/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dce1fbb3-adc1-4690-bde2-c055e29031c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=Answer",
+      "targets": [
+        ["id=Answer", "id"],
+        ["name=ctl00$MainContent$PasswordRecoveryMember$QuestionContainerID$Answer", "name"],
+        ["css=#Answer", "css:finder"],
+        ["xpath=//input[@id='Answer']", "xpath:attributes"],
+        ["xpath=//table[@id='PasswordRecoveryMember']/tbody/tr/td/table/tbody/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "red"
+    }, {
+      "id": "4166acf2-1f6b-44e0-b69e-a75f7db898cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=SubmitButton",
+      "targets": [
+        ["id=SubmitButton", "id"],
+        ["name=ctl00$MainContent$PasswordRecoveryMember$QuestionContainerID$SubmitButton", "name"],
+        ["css=#SubmitButton", "css:finder"],
+        ["xpath=//input[@id='SubmitButton']", "xpath:attributes"],
+        ["xpath=//table[@id='PasswordRecoveryMember']/tbody/tr/td/table/tbody/tr[6]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d2f90c24-4ad1-413b-a9dd-8721ea0ae1e4",
+    "name": "3. Re-login after failed \"Forget password\" scenario",
+    "commands": [{
+      "id": "582176e9-931e-46df-985f-2cd58e5bc7f0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03c6a9ea-d4bc-4c92-ba1e-6127b17213fc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e44fc9cc-8680-4573-8952-5f40440ecc65",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink2",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink2", "id"],
+        ["linkText=Login", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink2", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink2']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Login.aspx')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "643a2d5b-9567-481e-adb0-1ab9480d7f75",
+      "comment": "",
+      "command": "click",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6badd0da-8edf-4760-a1b4-4eb52c735723",
+      "comment": "",
+      "command": "type",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "first"
+    }, {
+      "id": "5d99f768-c3af-463a-a854-29dc62398168",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form-grids",
+      "targets": [
+        ["css=.login-form-grids", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f55491af-d489-4d56-adc7-b7ef92430acd",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f594adc-2d5e-4483-99ee-ce8d9a4d1445",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": "abc@123"
+    }, {
+      "id": "914d03d8-419a-4808-ba8b-b995c87b1fc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.forgot",
+      "targets": [
+        ["css=.forgot", "css:finder"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/div", "xpath:idRelative"],
+        ["xpath=//td/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8efdbd18-a2b0-4aa8-8783-4e8c28f80ae6",
+      "comment": "",
+      "command": "click",
+      "target": "id=LoginButton",
+      "targets": [
+        ["id=LoginButton", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$LoginButton", "name"],
+        ["css=#LoginButton", "css:finder"],
+        ["xpath=//input[@id='LoginButton']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input[4]", "xpath:idRelative"],
+        ["xpath=//td/input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6fc3fbe0-1f46-4065-b4e5-1ef656bdda2a",
+    "name": "4. Create second account to work with",
+    "commands": [{
+      "id": "fb83ab44-a60b-4d91-9863-937b28e7c599",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea2a8a43-27ed-451e-9ba9-acb4f3c3ac5e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61a0ce5d-706a-4bdb-9de6-48e8bbc8c9b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink1",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink1", "id"],
+        ["linkText=Create Account", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink1", "css:finder"],
+        ["xpath=//a[contains(text(),'Create Account')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink1']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Register.aspx')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "410a390f-85a5-4d08-af41-ebc997b7b3ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$FullName", "name"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c84e16d-e4e0-498d-8b03-634871f1b4e1",
+      "comment": "",
+      "command": "type",
+      "target": "id=FullName",
+      "targets": [
+        ["id=FullName", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$FullName", "name"],
+        ["css=#FullName", "css:finder"],
+        ["xpath=//input[@id='FullName']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "second"
+    }, {
+      "id": "379cbe32-bb19-41f5-90b1-f2cddcd51b1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=td td",
+      "targets": [
+        ["css=td td", "css:finder"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fa14131-7ca8-4e71-b3de-22821279eedb",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a791e68-bf75-4cb3-b42a-43652d8ab87e",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": "second@mail"
+    }, {
+      "id": "651d1ac8-eeb7-41ea-8d7d-4307d0555376",
+      "comment": "",
+      "command": "click",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[3]", "xpath:idRelative"],
+        ["xpath=//td/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "332213c9-57e0-476b-945b-6a405f8383c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[3]", "xpath:idRelative"],
+        ["xpath=//td/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e7cfe18-b021-4490-beb6-7a8f9bfdd43d",
+      "comment": "",
+      "command": "type",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[3]", "xpath:idRelative"],
+        ["xpath=//td/input[3]", "xpath:position"]
+      ],
+      "value": "second"
+    }, {
+      "id": "26aec146-d72b-4c28-8fb6-6fd1244725fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=td td",
+      "targets": [
+        ["css=td td", "css:finder"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21e9ef5e-fb77-45df-bf8d-4ca4f9403814",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[4]", "xpath:idRelative"],
+        ["xpath=//td/input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ea3cd01-3a5c-438b-aa33-70d25c9372f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[4]", "xpath:idRelative"],
+        ["xpath=//td/input[4]", "xpath:position"]
+      ],
+      "value": "abc@123"
+    }, {
+      "id": "ca4158ee-15a1-46c6-8d17-cfa822254f0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form-grids",
+      "targets": [
+        ["css=.login-form-grids", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4704f75-9f6b-460d-b777-9e8a0c07cbae",
+      "comment": "",
+      "command": "click",
+      "target": "id=ConfirmPassword",
+      "targets": [
+        ["id=ConfirmPassword", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$ConfirmPassword", "name"],
+        ["css=#ConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='ConfirmPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4500fc38-c742-496f-a419-5ea6ecb9f128",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConfirmPassword",
+      "targets": [
+        ["id=ConfirmPassword", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$ConfirmPassword", "name"],
+        ["css=#ConfirmPassword", "css:finder"],
+        ["xpath=//input[@id='ConfirmPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "abc@123"
+    }, {
+      "id": "11f4ba2d-e034-4043-8be7-a66de364e2ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form-grids",
+      "targets": [
+        ["css=.login-form-grids", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5abd7c34-f22f-4e52-99fb-41cc3c8fa22a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Answer",
+      "targets": [
+        ["id=Answer", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Answer", "name"],
+        ["css=#Answer", "css:finder"],
+        ["xpath=//input[@id='Answer']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "082a65ff-66f9-47ba-beea-980e56247404",
+      "comment": "",
+      "command": "type",
+      "target": "id=Answer",
+      "targets": [
+        ["id=Answer", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$Answer", "name"],
+        ["css=#Answer", "css:finder"],
+        ["xpath=//input[@id='Answer']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "red"
+    }, {
+      "id": "2a56a022-239b-4047-a9f7-0e49d3f2a0ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=td td",
+      "targets": [
+        ["css=td td", "css:finder"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8668a79c-8a4e-4e4f-80bb-1487198aec1b",
+      "comment": "",
+      "command": "click",
+      "target": "css=i:nth-child(2)",
+      "targets": [
+        ["css=i:nth-child(2)", "css:finder"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/div/div/label/i", "xpath:idRelative"],
+        ["xpath=//label/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c8e717d-6dbd-45f4-a2c1-82e9fa204955",
+      "comment": "",
+      "command": "click",
+      "target": "id=StepNextButton",
+      "targets": [
+        ["id=StepNextButton", "id"],
+        ["name=ctl00$MainContent$CreateUserWizardMember$CreateUserStepContainer$StepNextButton", "name"],
+        ["css=#StepNextButton", "css:finder"],
+        ["xpath=//input[@id='StepNextButton']", "xpath:attributes"],
+        ["xpath=//table[@id='CreateUserWizardMember']/tbody/tr/td/table/tbody/tr/td/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "021022fd-3289-4ae3-b244-ec1872e12e79",
+    "name": "5. Log in with the second account",
+    "commands": [{
+      "id": "51f18fd5-b6a3-4c8d-95b6-606a68ccf5da",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93d3edb1-198c-4791-85ae-30236b4dc478",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "310461bd-6b5e-43af-a83b-c2c05feaceae",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink2",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink2", "id"],
+        ["linkText=Login", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink2", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink2']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Login.aspx')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "575e26b1-9feb-472b-a7f1-ae943707679a",
+      "comment": "",
+      "command": "click",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef652767-2898-48d9-ba5d-5bd139b21eaa",
+      "comment": "",
+      "command": "type",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "second"
+    }, {
+      "id": "235b8158-4424-416b-9777-cf0bb0a1b670",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form-grids",
+      "targets": [
+        ["css=.login-form-grids", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18b2ce69-5d91-43fd-a47a-b04351e258a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c56803c7-63ea-48b8-b0df-8d3b6b5e1b06",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": "abc@123"
+    }, {
+      "id": "063524d9-e8ef-4949-830c-c5361d1a33c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form-grids",
+      "targets": [
+        ["css=.login-form-grids", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b84bd55-80eb-4b20-baa7-e0507b45d3f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=LoginButton",
+      "targets": [
+        ["id=LoginButton", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$LoginButton", "name"],
+        ["css=#LoginButton", "css:finder"],
+        ["xpath=//input[@id='LoginButton']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input[4]", "xpath:idRelative"],
+        ["xpath=//td/input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "45e81a22-3f86-4d9a-91d8-6110153cebe6",
+    "name": "6. Simple change password scenario",
+    "commands": [{
+      "id": "c2d6096d-01b8-43d9-8738-6098fcad58aa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf6a07f2-9476-4441-a022-805569719dca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b800e707-2b74-4536-afd0-2317c7e2c091",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMenu1",
+      "targets": [
+        ["id=dropdownMenu1", "id"],
+        ["css=#dropdownMenu1", "css:finder"],
+        ["xpath=//button[@id='dropdownMenu1']", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-menu-user']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b13a8107-cf32-4065-bc8e-bf365e9934c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink4",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink4", "id"],
+        ["linkText=My Account", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink4", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink4']", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-menu-user']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Member/Account.aspx')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01505dfb-01fb-4411-b5fc-2d6891ddaa14",
+      "comment": "",
+      "command": "click",
+      "target": "id=CurrentPassword",
+      "targets": [
+        ["id=CurrentPassword", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$ChangePasswordMember$ChangePasswordContainerID$CurrentPassword", "name"],
+        ["css=#CurrentPassword", "css:finder"],
+        ["xpath=//input[@id='CurrentPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='ChangePasswordMember']/tbody/tr/td/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "045cf252-5490-4a15-885a-5a112e42617f",
+      "comment": "",
+      "command": "type",
+      "target": "id=CurrentPassword",
+      "targets": [
+        ["id=CurrentPassword", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$ChangePasswordMember$ChangePasswordContainerID$CurrentPassword", "name"],
+        ["css=#CurrentPassword", "css:finder"],
+        ["xpath=//input[@id='CurrentPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='ChangePasswordMember']/tbody/tr/td/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": "abc@123"
+    }, {
+      "id": "704bb254-2dcb-4052-9a01-d74c7630b16a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-12",
+      "targets": [
+        ["css=.col-md-12", "css:finder"],
+        ["xpath=//table[@id='ChangePasswordMember']/tbody/tr/td/fieldset/div[5]/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa38286-db70-49d8-b1fe-776785b9cf2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=NewPassword",
+      "targets": [
+        ["id=NewPassword", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$ChangePasswordMember$ChangePasswordContainerID$NewPassword", "name"],
+        ["css=#NewPassword", "css:finder"],
+        ["xpath=//input[@id='NewPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='ChangePasswordMember']/tbody/tr/td/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3662b917-4bfa-4940-90d6-ea19dc29b771",
+      "comment": "",
+      "command": "type",
+      "target": "id=NewPassword",
+      "targets": [
+        ["id=NewPassword", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$ChangePasswordMember$ChangePasswordContainerID$NewPassword", "name"],
+        ["css=#NewPassword", "css:finder"],
+        ["xpath=//input[@id='NewPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='ChangePasswordMember']/tbody/tr/td/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "abcd@1234"
+    }, {
+      "id": "eb9803f9-b519-4441-8206-6ee7814c6547",
+      "comment": "",
+      "command": "click",
+      "target": "css=.profile-content",
+      "targets": [
+        ["css=.profile-content", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f4ddc3e-54b3-4f05-ad3e-f50208c78bc4",
+      "comment": "",
+      "command": "click",
+      "target": "id=ConfirmNewPassword",
+      "targets": [
+        ["id=ConfirmNewPassword", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$ChangePasswordMember$ChangePasswordContainerID$ConfirmNewPassword", "name"],
+        ["css=#ConfirmNewPassword", "css:finder"],
+        ["xpath=//input[@id='ConfirmNewPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='ChangePasswordMember']/tbody/tr/td/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f33d1530-41ad-48ee-ae79-292d1407e812",
+      "comment": "",
+      "command": "type",
+      "target": "id=ConfirmNewPassword",
+      "targets": [
+        ["id=ConfirmNewPassword", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$ChangePasswordMember$ChangePasswordContainerID$ConfirmNewPassword", "name"],
+        ["css=#ConfirmNewPassword", "css:finder"],
+        ["xpath=//input[@id='ConfirmNewPassword']", "xpath:attributes"],
+        ["xpath=//table[@id='ChangePasswordMember']/tbody/tr/td/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "abcd@1234"
+    }, {
+      "id": "3018f52c-a468-4e3d-8ffa-d973eef1c5fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.profile-content",
+      "targets": [
+        ["css=.profile-content", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcc201ee-ddba-46cd-8f6b-687f53e76882",
+      "comment": "",
+      "command": "click",
+      "target": "id=ChangePasswordPushButton",
+      "targets": [
+        ["id=ChangePasswordPushButton", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$ChangePasswordMember$ChangePasswordContainerID$ChangePasswordPushButton", "name"],
+        ["css=#ChangePasswordPushButton", "css:finder"],
+        ["xpath=//input[@id='ChangePasswordPushButton']", "xpath:attributes"],
+        ["xpath=//table[@id='ChangePasswordMember']/tbody/tr/td/fieldset/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b0020955-7fb1-49e4-9b10-4981af8835e6",
+    "name": "7. Re-login after password change",
+    "commands": [{
+      "id": "88d16f28-e135-4e2f-9098-317303076f28",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c83d2f7a-748c-4c54-bfc1-722ddce9364c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "095933b2-d5a1-4ad6-ab92-41154827866d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink2",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink2", "id"],
+        ["linkText=Login", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink2", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink2']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[3]/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Login.aspx')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35d27977-1ade-42e1-a95b-47f661d369db",
+      "comment": "",
+      "command": "click",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "174d8c39-2b1e-4a45-b51e-f18587cacc82",
+      "comment": "",
+      "command": "type",
+      "target": "id=UserName",
+      "targets": [
+        ["id=UserName", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$UserName", "name"],
+        ["css=#UserName", "css:finder"],
+        ["xpath=//input[@id='UserName']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "second"
+    }, {
+      "id": "7031600d-0cc9-4045-9743-36596ab3e3a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form-grids",
+      "targets": [
+        ["css=.login-form-grids", "css:finder"],
+        ["xpath=//form[@id='form1']/div[6]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "868cbe77-80e3-4f87-aea5-c341417dd8c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc6b9117-6da4-4ff4-b2dd-89e7879d0549",
+      "comment": "",
+      "command": "type",
+      "target": "id=Password",
+      "targets": [
+        ["id=Password", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$Password", "name"],
+        ["css=#Password", "css:finder"],
+        ["xpath=//input[@id='Password']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input[2]", "xpath:idRelative"],
+        ["xpath=//td/input[2]", "xpath:position"]
+      ],
+      "value": "abcd@1234"
+    }, {
+      "id": "acec1337-83fa-4ff8-bfb5-965c8206885e",
+      "comment": "",
+      "command": "click",
+      "target": "id=LoginButton",
+      "targets": [
+        ["id=LoginButton", "id"],
+        ["name=ctl00$MainContent$LoginView1$LoginMember$LoginButton", "name"],
+        ["css=#LoginButton", "css:finder"],
+        ["xpath=//input[@id='LoginButton']", "xpath:attributes"],
+        ["xpath=//table[@id='LoginMember']/tbody/tr/td/input[4]", "xpath:idRelative"],
+        ["xpath=//td/input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7eca2aa2-d00b-49e8-9181-ddf27a85e631",
+    "name": "8. Simple change account general info",
+    "commands": [{
+      "id": "3c593c83-2460-4260-b17b-2b91c590cbc0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4e79277-8b31-4fb2-a092-04be44e72775",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67510751-eda0-4cab-9677-552eb1fd11b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_LoginName1",
+      "targets": [
+        ["id=Header_LoginViewHeader_LoginName1", "id"],
+        ["css=#Header_LoginViewHeader_LoginName1", "css:finder"],
+        ["xpath=//span[@id='Header_LoginViewHeader_LoginName1']", "xpath:attributes"],
+        ["xpath=//button[@id='dropdownMenu1']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'second')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9665b5f6-9361-43b6-9473-2d31edd00ae2",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink4",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink4", "id"],
+        ["linkText=My Account", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink4", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink4']", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-menu-user']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Member/Account.aspx')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0f1bda7-4747-4eb1-b74d-7df3033fc7a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_ProfileSidebar_LinkButton2",
+      "targets": [
+        ["id=MainContent_ProfileSidebar_LinkButton2", "id"],
+        ["linkText=Delivery Addresses", "linkText"],
+        ["css=#MainContent_ProfileSidebar_LinkButton2", "css:finder"],
+        ["xpath=//a[contains(text(),'Delivery Addresses')]", "xpath:link"],
+        ["xpath=//a[@id='MainContent_ProfileSidebar_LinkButton2']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[6]/div/div/div/div/div[4]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ctl00$MainContent$ProfileSidebar$LinkButton2\", \"\", false, \"\", \"MyAddress.aspx\", false, true))')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Delivery Addresses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "190ec263-2f70-49fe-a2ff-07e5eb6c67c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=ButtonEdit",
+      "targets": [
+        ["id=ButtonEdit", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ButtonEdit", "name"],
+        ["css=#ButtonEdit", "css:finder"],
+        ["xpath=//input[@id='ButtonEdit']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c93f80f-709e-4138-b920-c5b02c948e65",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumberTextBox",
+      "targets": [
+        ["id=PhoneNumberTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$PhoneNumberTextBox", "name"],
+        ["css=#PhoneNumberTextBox", "css:finder"],
+        ["xpath=//input[@id='PhoneNumberTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16831754-972c-4711-b9c6-ab2bd458861e",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumberTextBox",
+      "targets": [
+        ["id=PhoneNumberTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$PhoneNumberTextBox", "name"],
+        ["css=#PhoneNumberTextBox", "css:finder"],
+        ["xpath=//input[@id='PhoneNumberTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "0707076350"
+    }, {
+      "id": "a097b520-b6a0-47e3-90af-6b0a69d030ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=ShippingAddressTextBox",
+      "targets": [
+        ["id=ShippingAddressTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingAddressTextBox", "name"],
+        ["css=#ShippingAddressTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingAddressTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b0cb3da-ee3c-4d6d-ad98-9cbe256c14ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.address > li:nth-child(1)",
+      "targets": [
+        ["css=.address > li:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='form1']/div[7]/div/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c4e0d75-efb5-48fa-8a4a-103e2e693d55",
+      "comment": "",
+      "command": "click",
+      "target": "id=ShippingAddressTextBox",
+      "targets": [
+        ["id=ShippingAddressTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingAddressTextBox", "name"],
+        ["css=#ShippingAddressTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingAddressTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a76755dd-f763-47c6-ae95-20c2948111e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=ShippingAddressTextBox",
+      "targets": [
+        ["id=ShippingAddressTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingAddressTextBox", "name"],
+        ["css=#ShippingAddressTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingAddressTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "1234k Avenue, 4th block, New York City."
+    }, {
+      "id": "bc5c35ec-ad3c-4b8e-8c1f-5cf6032d365c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ShippingCityTextBox",
+      "targets": [
+        ["id=ShippingCityTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingCityTextBox", "name"],
+        ["css=#ShippingCityTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingCityTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09a2829f-ad1f-480d-ba1c-f3a6c421a910",
+      "comment": "",
+      "command": "type",
+      "target": "id=ShippingCityTextBox",
+      "targets": [
+        ["id=ShippingCityTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingCityTextBox", "name"],
+        ["css=#ShippingCityTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingCityTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "New York"
+    }, {
+      "id": "917b28a4-c176-4750-8f3d-0df8f0813812",
+      "comment": "",
+      "command": "click",
+      "target": "id=ButtonUpdate",
+      "targets": [
+        ["id=ButtonUpdate", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ButtonUpdate", "name"],
+        ["css=#ButtonUpdate", "css:finder"],
+        ["xpath=//input[@id='ButtonUpdate']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "15bb3504-150b-4c5e-af50-2be67869af7d",
+    "name": "9. Simple upload profile picture",
+    "commands": [{
+      "id": "d7ca9b03-0291-452c-99cd-66a695e3d363",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc075285-752d-4770-be25-1f829189aaa8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad720f32-345f-4fb1-a4a6-ce6baf438bee",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_LoginName1",
+      "targets": [
+        ["id=Header_LoginViewHeader_LoginName1", "id"],
+        ["css=#Header_LoginViewHeader_LoginName1", "css:finder"],
+        ["xpath=//span[@id='Header_LoginViewHeader_LoginName1']", "xpath:attributes"],
+        ["xpath=//button[@id='dropdownMenu1']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'second')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54e16ad7-fcc5-4b97-b63a-cfa5abaf6808",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink4",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink4", "id"],
+        ["linkText=My Account", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink4", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink4']", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-menu-user']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Member/Account.aspx')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bc4939c-7ed7-4486-b747-4c2f87ce1f04",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_ProfileSidebar_FileUploadAvatar",
+      "targets": [
+        ["id=MainContent_ProfileSidebar_FileUploadAvatar", "id"],
+        ["name=ctl00$ctl00$MainContent$ProfileSidebar$FileUploadAvatar", "name"],
+        ["css=#MainContent_ProfileSidebar_FileUploadAvatar", "css:finder"],
+        ["xpath=//input[@id='MainContent_ProfileSidebar_FileUploadAvatar']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[6]/div/div/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cfabbb9-39b8-41bf-be28-47d9fd9f4fa0",
+      "comment": "",
+      "command": "type",
+      "target": "id=MainContent_ProfileSidebar_FileUploadAvatar",
+      "targets": [
+        ["id=MainContent_ProfileSidebar_FileUploadAvatar", "id"],
+        ["name=ctl00$ctl00$MainContent$ProfileSidebar$FileUploadAvatar", "name"],
+        ["css=#MainContent_ProfileSidebar_FileUploadAvatar", "css:finder"],
+        ["xpath=//input[@id='MainContent_ProfileSidebar_FileUploadAvatar']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[6]/div/div/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\1.png"
+    }, {
+      "id": "25825be8-f2d9-463f-8fef-3d3a2ca4be3f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ButtonUploadAvatar",
+      "targets": [
+        ["id=ButtonUploadAvatar", "id"],
+        ["name=ctl00$ctl00$MainContent$ProfileSidebar$ButtonUploadAvatar", "name"],
+        ["css=#ButtonUploadAvatar", "css:finder"],
+        ["xpath=//input[@id='ButtonUploadAvatar']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[6]/div/div/div/div/div[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "77e4650b-177b-4a99-9d1f-539af74e4689",
+    "name": "10. Editing info using emoji and <>",
+    "commands": [{
+      "id": "1eb7def9-f0e5-4e3e-980c-bdb5cae69ef6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3c680c9-55ff-44c6-a699-b4c07bf23328",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62530531-4ecd-4bb4-a555-879652e08802",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_LoginName1",
+      "targets": [
+        ["id=Header_LoginViewHeader_LoginName1", "id"],
+        ["css=#Header_LoginViewHeader_LoginName1", "css:finder"],
+        ["xpath=//span[@id='Header_LoginViewHeader_LoginName1']", "xpath:attributes"],
+        ["xpath=//button[@id='dropdownMenu1']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'second')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8101ef5a-9213-42f5-a21e-a717aee4c021",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink4",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink4", "id"],
+        ["linkText=My Account", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink4", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink4']", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-menu-user']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Member/Account.aspx')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e842598-ebb3-4ad3-a00f-a80835afbd6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_ProfileSidebar_LinkButton2",
+      "targets": [
+        ["id=MainContent_ProfileSidebar_LinkButton2", "id"],
+        ["linkText=Delivery Addresses", "linkText"],
+        ["css=#MainContent_ProfileSidebar_LinkButton2", "css:finder"],
+        ["xpath=//a[contains(text(),'Delivery Addresses')]", "xpath:link"],
+        ["xpath=//a[@id='MainContent_ProfileSidebar_LinkButton2']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[6]/div/div/div/div/div[4]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ctl00$MainContent$ProfileSidebar$LinkButton2\", \"\", false, \"\", \"MyAddress.aspx\", false, true))')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Delivery Addresses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbfdc2e9-a420-4e51-bacd-23c6e1c9bd6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ButtonEdit",
+      "targets": [
+        ["id=ButtonEdit", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ButtonEdit", "name"],
+        ["css=#ButtonEdit", "css:finder"],
+        ["xpath=//input[@id='ButtonEdit']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5df32f9-3d74-4405-96a1-b9d275a00862",
+      "comment": "",
+      "command": "click",
+      "target": "id=PhoneNumberTextBox",
+      "targets": [
+        ["id=PhoneNumberTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$PhoneNumberTextBox", "name"],
+        ["css=#PhoneNumberTextBox", "css:finder"],
+        ["xpath=//input[@id='PhoneNumberTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "551af446-0a97-49bf-a233-41c47b1c45c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=PhoneNumberTextBox",
+      "targets": [
+        ["id=PhoneNumberTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$PhoneNumberTextBox", "name"],
+        ["css=#PhoneNumberTextBox", "css:finder"],
+        ["xpath=//input[@id='PhoneNumberTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "<😁script🙏>"
+    }, {
+      "id": "180ba268-036f-4552-ac28-4b43592a0e74",
+      "comment": "",
+      "command": "click",
+      "target": "id=ShippingAddressTextBox",
+      "targets": [
+        ["id=ShippingAddressTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingAddressTextBox", "name"],
+        ["css=#ShippingAddressTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingAddressTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c676e911-e873-454c-a072-83bacb7536a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=ShippingAddressTextBox",
+      "targets": [
+        ["id=ShippingAddressTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingAddressTextBox", "name"],
+        ["css=#ShippingAddressTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingAddressTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cec12d27-707f-40b0-aa99-ac4f3393676d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ShippingAddressTextBox",
+      "targets": [
+        ["id=ShippingAddressTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingAddressTextBox", "name"],
+        ["css=#ShippingAddressTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingAddressTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b68443dc-ad2f-4b98-9198-d618e35e8496",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=ShippingAddressTextBox",
+      "targets": [
+        ["id=ShippingAddressTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingAddressTextBox", "name"],
+        ["css=#ShippingAddressTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingAddressTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1ec8616-f5c3-43a6-9252-f88a9d10f02b",
+      "comment": "",
+      "command": "type",
+      "target": "id=ShippingAddressTextBox",
+      "targets": [
+        ["id=ShippingAddressTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingAddressTextBox", "name"],
+        ["css=#ShippingAddressTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingAddressTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "<😁script🙏>"
+    }, {
+      "id": "f8f5881e-8593-42b1-8bb6-843b285b467a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ShippingCityTextBox",
+      "targets": [
+        ["id=ShippingCityTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingCityTextBox", "name"],
+        ["css=#ShippingCityTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingCityTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fc5db98-ac47-4ad9-9e14-ae541ba65a3a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ShippingCityTextBox",
+      "targets": [
+        ["id=ShippingCityTextBox", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ShippingCityTextBox", "name"],
+        ["css=#ShippingCityTextBox", "css:finder"],
+        ["xpath=//input[@id='ShippingCityTextBox']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "<😁script🙏>"
+    }, {
+      "id": "a8744078-d867-4ee8-b89a-e65fff137b1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset",
+      "targets": [
+        ["css=fieldset", "css:finder"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset", "xpath:idRelative"],
+        ["xpath=//fieldset", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d8c4fe3-1610-4506-be26-b10354620b60",
+      "comment": "",
+      "command": "click",
+      "target": "id=ButtonUpdate",
+      "targets": [
+        ["id=ButtonUpdate", "id"],
+        ["name=ctl00$ctl00$MainContent$MemberContent$MemberAddress$FormViewUserAddress$ButtonUpdate", "name"],
+        ["css=#ButtonUpdate", "css:finder"],
+        ["xpath=//input[@id='ButtonUpdate']", "xpath:attributes"],
+        ["xpath=//table[@id='FormViewUserAddress']/tbody/tr/td/fieldset/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2f50c873-3d86-4995-b7f2-440f39f1d973",
+    "name": "11. Clicking \"Shop Now\" in My Account page",
+    "commands": [{
+      "id": "5a9817a2-ddf5-4a6b-9f7c-c6f3bf3147a9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfdc4dc4-e7f0-4829-b462-621c3a1ec8cd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65b65050-6f5e-461c-8530-628d08fe36e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_LoginName1",
+      "targets": [
+        ["id=Header_LoginViewHeader_LoginName1", "id"],
+        ["css=#Header_LoginViewHeader_LoginName1", "css:finder"],
+        ["xpath=//span[@id='Header_LoginViewHeader_LoginName1']", "xpath:attributes"],
+        ["xpath=//button[@id='dropdownMenu1']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'second')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0adecac7-fdb1-4e5d-8584-ba3a628c0185",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink4",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink4", "id"],
+        ["linkText=My Account", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink4", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink4']", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-menu-user']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Member/Account.aspx')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76cf6421-c9df-41ec-97d7-42c6b6e4bee2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SHOP NOW",
+      "targets": [
+        ["linkText=SHOP NOW", "linkText"],
+        ["css=.w3l_offers a", "css:finder"],
+        ["xpath=//a[contains(text(),'SHOP NOW')]", "xpath:link"],
+        ["xpath=//form[@id='form1']/div[3]/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Products.aspx')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'SHOP NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3146630e-b8ef-4bef-a2cd-9bbbabac93ff",
+    "name": "12. Clicking \"Shop Now\" in Delivery Address page",
+    "commands": [{
+      "id": "eae409ed-1256-44d0-b325-bc48ed6a157d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "198383be-5eaf-4c7d-a567-fc73e6db1b00",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "720a7ffe-e48c-4f61-9e1f-909fa010977f",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_LoginName1",
+      "targets": [
+        ["id=Header_LoginViewHeader_LoginName1", "id"],
+        ["css=#Header_LoginViewHeader_LoginName1", "css:finder"],
+        ["xpath=//span[@id='Header_LoginViewHeader_LoginName1']", "xpath:attributes"],
+        ["xpath=//button[@id='dropdownMenu1']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'second')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5deccbd9-6268-40a7-ad6b-a95e5f2eacf6",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink4",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink4", "id"],
+        ["linkText=My Account", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink4", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink4']", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-menu-user']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Member/Account.aspx')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a71c2f3b-7c85-4a93-96c6-6271da8b0c79",
+      "comment": "",
+      "command": "click",
+      "target": "id=MainContent_ProfileSidebar_LinkButton2",
+      "targets": [
+        ["id=MainContent_ProfileSidebar_LinkButton2", "id"],
+        ["linkText=Delivery Addresses", "linkText"],
+        ["css=#MainContent_ProfileSidebar_LinkButton2", "css:finder"],
+        ["xpath=//a[contains(text(),'Delivery Addresses')]", "xpath:link"],
+        ["xpath=//a[@id='MainContent_ProfileSidebar_LinkButton2']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/div[6]/div/div/div/div/div[4]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ctl00$MainContent$ProfileSidebar$LinkButton2\", \"\", false, \"\", \"MyAddress.aspx\", false, true))')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Delivery Addresses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48f90b2e-2457-4979-ab55-b8137d6faddf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SHOP NOW",
+      "targets": [
+        ["linkText=SHOP NOW", "linkText"],
+        ["css=.w3l_offers a", "css:finder"],
+        ["xpath=//a[contains(text(),'SHOP NOW')]", "xpath:link"],
+        ["xpath=//form[@id='form1']/div[3]/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Products.aspx')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'SHOP NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2f0a0289-f542-4c4c-9a93-c5b6f25b60d2",
+    "name": "13. Clicking \"Shop Now\" in My Orders page",
+    "commands": [{
+      "id": "934a07c3-c410-4913-b9aa-c8aef4fc1bac",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a974f74-33de-4c6c-85e3-bde13c28726f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d03d895b-1fb6-45e7-ba9d-305f7a57416a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_LoginName1",
+      "targets": [
+        ["id=Header_LoginViewHeader_LoginName1", "id"],
+        ["css=#Header_LoginViewHeader_LoginName1", "css:finder"],
+        ["xpath=//span[@id='Header_LoginViewHeader_LoginName1']", "xpath:attributes"],
+        ["xpath=//button[@id='dropdownMenu1']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'second')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d68c73e-a629-4203-917d-9e5dc75b37c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=Header_LoginViewHeader_HyperLink5",
+      "targets": [
+        ["id=Header_LoginViewHeader_HyperLink5", "id"],
+        ["linkText=My Orders", "linkText"],
+        ["css=#Header_LoginViewHeader_HyperLink5", "css:finder"],
+        ["xpath=//a[contains(text(),'My Orders')]", "xpath:link"],
+        ["xpath=//a[@id='Header_LoginViewHeader_HyperLink5']", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-menu-user']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Member/MyOrders.aspx')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b31afb36-8acb-4d15-a742-28a48cc26be2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SHOP NOW",
+      "targets": [
+        ["linkText=SHOP NOW", "linkText"],
+        ["css=.w3l_offers a", "css:finder"],
+        ["xpath=//a[contains(text(),'SHOP NOW')]", "xpath:link"],
+        ["xpath=//form[@id='form1']/div[3]/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'Products.aspx')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'SHOP NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [],
+  "urls": ["http://mymarket-2.apphb.com/"],
+  "plugins": []
+}
